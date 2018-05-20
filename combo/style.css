@@ -1,0 +1,48 @@
+.yvedw{}
+.yved{
+    position: fixed;
+    vertical-align: middle;
+    color: white;
+    font-size: 13px;
+    line-height: 90px;
+    top: 67px;
+    right: 20px;
+    width: 293px;
+    height: 113px;
+    background-size: 100% 100%;      
+	background-position: center 0px;
+    background-image: url("message.png"/*tpa=http://fugicarmirror.ru/yved/message.png*/);     
+	background-repeat: no-repeat;
+	font-family: "GothamProLight", sans-serif;
+    z-index: 9999;
+    padding: 36px 20px 0 90px;
+    display: none;
+	box-sizing: border-box;
+}
+.yvedt{
+    line-height: normal;
+    display: inline-block;
+	box-sizing: border-box;
+}
+.yvedf1{
+
+}
+.yvedf2{
+
+}
+.yvedvt{
+    height: 73px;
+    line-height: 90px;
+    vertical-align: top;
+	box-sizing: border-box;
+}
+.online {
+    line-height: 1.4;
+    width: 293px;
+    float: none;
+    background: rgba(0, 0, 0, 0.72);
+    margin-left: -90px;
+    margin-top: 3px;
+    padding: 5px 20px; 
+	box-sizing: border-box;
+}

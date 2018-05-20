@@ -1,0 +1,357 @@
+@import url("css-family=Open+Sans-400,600,700.css"/*tpa=https://fonts.googleapis.com/css?family=Open+Sans:400,600,700*/);
+.m1modal-show {
+  overflow: hidden!important;
+  position: relative;
+  right: 8px;
+}
+
+.margin-t-b {
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+.margin-l {
+  margin-left: 0!important;
+}
+
+.m1loader,.m1modal {
+  background: url("opacity1.png"/*tpa=http://static.best-gooods.ru/img/opacity1.png*/);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 0;
+}
+
+.m1loader {
+  z-index: 200001;
+}
+
+.m1modal {
+  z-index: 200001;
+  overflow: auto;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+
+.m1modal .m1modal-top {
+  top: 50%;
+}
+
+.m1modal .m1modal-left {
+  left: 50%;
+}
+
+.m1modal-block {
+  position: relative;
+  width: 600px;
+  background: #FFF;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.35);
+  border: 1px solid #3a87ad;
+}
+
+.m1modal-block .icon-close {
+  position: absolute;
+  right: 0;
+  margin: 15px 20px;
+  z-index: 1000;
+}
+
+.m1modal-block .m1-form-title {
+  background: #4d83c0;
+  text-align: center;
+  line-height: 50px;
+  text-shadow: 1px 1px 0 #3a87ad;
+  border-bottom: 1px solid #3a87ad;
+  padding: 0 100px;
+  font-size: 18px;
+  color: #FFF;
+  width: auto;
+  height: auto;
+  margin: 0!important;
+  letter-spacing: 0;
+}
+
+.m1modal.error .m1-form-title {
+  background: #f00;
+  text-shadow: 1px 1px 0 #e30000;
+  border-bottom: 1px solid #e30000;
+}
+
+.m1modal.error .m1modal-block {
+  border: 1px solid #e30000;
+}
+
+.m1modal.complete .m1-form-title {
+  background: #5bb75b;
+  text-shadow: 1px 1px 0 #50a150;
+  border-bottom: 1px solid #50a150;
+}
+
+.m1modal.complete .m1modal-block {
+  border: 1px solid #50a150;
+}
+
+.icon-close {
+  background: url("icon-close.png"/*tpa=http://static.best-gooods.ru/img/icon-close.png*/) no-repeat;
+  width: 20px;
+  height: 19px;
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.m1modal p {
+  font-weight: normal;
+  width: auto;
+}
+
+.m1modal .m1content {
+  background: #fff repeat;
+  width: auto;
+  overflow: hidden;
+  margin: 0;
+  box-shadow: none;
+}
+
+@media screen and (max-width:540px) {
+  .m1modal-block {
+    width: 380px;
+  }
+
+  .m1modal-block .m1-form-title {
+    padding: 0 50px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width:405px) {
+  .m1modal-block {
+    width: 300px;
+  }
+
+  .m1modal-block .m1-form-title {
+    padding: 0;
+  }
+}
+
+.m1-form .m1modal-block {
+  border: 0;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #222;
+  line-height: 1.5!important;
+  width: 570px;
+}
+
+.m1-form .m1modal-block .m1-form-title {
+  background: transparent;
+  text-shadow: none;
+  color: #222;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom: 0;
+  text-transform: none;
+}
+
+.m1-form .m1modal-block .icon-close {
+  margin: 10px 8px;
+}
+
+.m1-form .m1modal-block .m1padding {
+  padding: 20px 40px 40px;
+}
+
+.m1-form .m1modal-block p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.m1-form .m1modal-block .bold {
+  font-weight: bold;
+}
+
+.m1-form form {
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: 0;
+  position: static;
+  padding: 0;
+  border: 0;
+}
+
+.m1-form form input[type=text] {
+  height: 36px;
+  line-height: 36px;
+  color: #222;
+  border: 1px solid #aaa;
+  padding: 0 10px;
+  width: 200px;
+  display: inline-block;
+  text-indent: 0;
+  border-radius: 3px;
+  background: #fff;
+  font-size: 14px;
+  font-style: normal;
+  box-shadow: none;
+  position: static;
+  margin: 0 0 10px 0;
+}
+
+.m1-form form ::-webkit-input-placeholder {
+  color: #888;
+}
+
+.m1-form form ::-moz-placeholder {
+  color: #888;
+}
+
+.m1-form form :-moz-placeholder {
+  color: #888;
+}
+
+.m1-form form :-ms-input-placeholder {
+  color: #888;
+}
+
+.m1-form form input {
+  float: none;
+}
+
+.m1-form form input[name=name] {
+  padding-right: 10px;
+}
+
+.m1-form form input[type=submit] {
+  position: static;
+  cursor: pointer;
+  border: 0;
+  background: #ff6600;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: 38px;
+  height: 38px;
+  vertical-align: top;
+  margin: 0;
+  display: inline-block;
+  text-indent: 0;
+  text-align: center!important;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  width: auto;
+  opacity: 1;
+}
+
+.m1-form form input[type=submit]:hover {
+  background: #dd070b;
+  text-decoration: none;
+}
+
+
+
+.m1-form .m1modal-block {
+  font-family: 'Open Sans','sans-serif';
+}
+.m1-form .m1modal-block p {
+  font-family: 'Open Sans','sans-serif';
+}
+
+.m1-form .m1modal-block {
+  width: 450px;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+.m1-form .m1modal-block .m1-form-title {
+  padding: 20px 0 8px;
+  text-align: center;
+  line-height: 36px !important;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  background: #64ca50;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.m1-form .m1modal-block .m1padding {
+  padding: 30px;
+}
+
+.m1-form .m1modal-block p {
+  color: rgba(0,0,0,.75);
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+.m1-form form {
+  margin: 20px 0 20px;
+  float: none;
+  box-shadow: none;
+}
+
+.m1-form form * {
+  box-sizing: border-box;
+}
+
+.m1-form form input[type=text] {
+  border: 1px solid #bdbdbd;
+  height: 56px;
+  line-height: 56px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.m1-form form input[type=submit] {
+  width: 100%;
+  background: #ff6600;
+  border-bottom: 3px solid #d25400;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  /* font-weight: normal; */
+  margin-top: 10px;
+}
+
+.m1-form .m1-form-clock {
+  line-height: 33px!important;
+  padding: 30px 0 0 !important;
+  background: top center no-repeat url("line_head.jpg"/*tpa=http://static.best-gooods.ru/img/line_head.jpg*/);
+}
+
+p.m1-form-clock {
+    font-style: italic;
+}
+
+.m1-form .m1-form-rectangle {
+  position: absolute;
+  width: 450px;
+  height: 23px;
+  bottom: -23px;
+  left: 0;
+  background: center bottom no-repeat url("corner.jpg"/*tpa=http://static.best-gooods.ru/img/corner.jpg*/);
+}

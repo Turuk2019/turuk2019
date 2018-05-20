@@ -1,0 +1,517 @@
+@media screen and (max-width: 1350px) {
+	.gen_nav_holder .center:before{
+		display: none;
+	}	
+}
+@media screen and (max-width: 1170px) {
+	nav{
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		left: 0;
+		top: 0;
+		bottom: 100%;
+	}
+	nav ul{
+		display: none;
+		z-index: 1000;
+		position: relative;
+		padding: 50px 0 10px;
+		background: #171c26;
+		margin-top: -15px;
+	}
+	nav li{
+		display: block;
+		margin: 0 0 15px;
+	}
+	.logo{
+		float: left;
+		margin-left: 60px;
+	}
+	.gen_nav_holder{
+		text-align: center;
+	}
+	.tel_holder{
+	}
+	.top_order{
+	}
+	.burger_menu{
+		display: block;
+		width: 30px;
+		height: 20px;
+		position: absolute;
+		top: 5px;
+		left: 20px;
+		z-index: 20000;
+	}
+	.burger_menu span,
+	.burger_menu:before,
+	.burger_menu:after{
+		background: #fff;
+		height: 2px;
+		left: 0;
+		position: absolute;
+		width: 100%;
+		-webkit-transition: all 0.4s ease-in-out;
+		-moz-transition: all 0.4s ease-in-out;
+		-ms-transition: all 0.4s ease-in-out;
+		-o-transition: all 0.4s ease-in-out;
+		transition: all 0.4s ease-in-out;
+	}
+	.burger_menu span{
+		top: 50%;
+		margin-top: -1px;
+	}
+	.burger_menu:before{
+		content: '';
+		top: 0;
+	}
+	.burger_menu:after{
+		content: '';
+		bottom: 0;
+	}
+	.burger_menu.open span {
+	    opacity: 0;
+	}
+	.burger_menu.open:before {
+	    transform: rotateZ(0.78539816rad);
+	    -webkit-transform: translateY(9px) rotateZ(0.78539816rad);
+	    -ms-transform: translateY(9px) rotateZ(0.78539816rad);
+	    transform: translateY(9px) translateX(0px) rotateZ(0.78539816rad);
+	}
+	.burger_menu.open:after {
+	    transform: rotateZ(-0.78539816rad);
+	    -webkit-transform: translateY(-9px) rotateZ(-0.78539816rad);
+	    -ms-transform: translateY(-9px) rotateZ(-0.78539816rad);
+	    transform: translateY(-9px) translateX(0px) rotateZ(-0.78539816rad);
+	}
+	.main_carousel{
+		margin: 0;
+	}
+	.main_carousel_holder .slick-dots{
+		padding: 0 50px;
+	}
+	.main_carousel_holder .slick-prev{
+		left: 0;
+		margin-left: 100px;
+	}
+	.main_carousel_holder .slick-next{
+		right: 0;
+		margin-right: 100px;
+	}
+	.text_block{
+		margin: 0;
+	}
+	.main_carousel{
+		position: static;
+
+	}
+	.text_block>ul{
+		max-width: 700px;
+	}
+	.master_section{
+		padding: 15px 0 60px;
+	}
+	.text_block p{
+		text-align: center;
+	}
+	.main_btn_list{
+		text-align: center;
+	}
+	.main_btn_list li{
+		margin: 0 5px 10px;
+	}
+	.carousel_block{
+		line-height: 400px;
+	}
+	.specialoffer_text{
+		padding: 70px 30px 0 0;
+	}
+	.visible_advantages_text h2{
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.ultra_section .visual .height span{
+		right: 10px;
+		left: auto;
+		width: 20px;
+		margin-top: -10px;
+	}
+	.ultra_section .visual img{
+		max-width: 85%;
+	}
+	.ultra_section .visual .height{
+		right: 10px;
+	}
+	.ultra_section .visual .width{
+		right: 50px;
+		left: 50px;
+	}
+	.char_block{
+		background: #171b24;
+	}
+	.char_block ul{
+		margin: 0 auto 20px;
+		max-width: 500px;
+		text-align: left;
+	}
+	.char_comp_section{
+		padding: 0;
+		margin: 0 -30px;
+		text-align: center;
+	}
+	.char_comp_section:before{
+		display: none;
+	}
+	.char_comp_block{
+		width: 100%;
+		padding: 50px 10px 10px;
+	}
+	.comp_block .visual_holder{
+		margin: 0;
+	}
+	.comp_block .visual_holder .visual{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 5px 10px;
+	}
+	.free_list_info{
+		padding: 0;
+	}
+	.free_list_holder{
+		max-width: none;
+		width: 50%;
+	}
+	.free_list_info{
+		font-size: 0;
+		line-height: 0;
+	}
+	.full_free_section .visual{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 900px) {
+	.specialoffer_text{
+		padding: 0 20px;
+		margin: 0 0 20px;
+		width: 100%;
+		text-align: center;
+	}
+  	.flash_text{
+		padding: 0 20px;
+		margin: 20px 0 0;
+		width: 60%;
+		text-align: left;
+	}
+  	.flash_text p{
+	font-size: 15px;
+	line-height: 20px;
+	}
+	.specialoffer_section:before{
+		display: none;
+	}
+  	.flash_section:before{
+		display: inline-block;
+	}
+	.specialoffer_form_holder{
+		width: 100%;
+	}
+	.specialoffer_form_holder form{
+		float: none;
+		margin: 0 auto 10px;
+	}
+	.visible_advantages_list li{
+		width: 33.333%;
+	}
+	.visible_advantages_text{
+		width: 55%;
+	}
+	.visible_advantages_visual{
+		width: 45%;
+	}
+	.characteristics_list .visual{
+		text-align: center;
+	}
+	.characteristics_list li{
+		width: 100%;
+		text-align: center;
+	}
+	.ultra_section{
+		padding: 50px 0 0;
+	}
+	.men_form_section .visual_men{
+		display: none;
+	}
+	.men_form_section form{
+		float: none;
+		margin: 0 auto 20px;
+	}
+	.light_list_block{
+		padding: 40px 10px 20px;
+	}
+	.light_list_block p{
+		padding: 0 10px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.center{
+		padding: 0 15px;
+	}
+	.top_nav_holder{
+		padding: 8px 10px;
+	}
+    .flash_section:before{
+	display: none;
+	}
+	.top_nav_holder li,
+	.top_nav_holder .attention{
+		font-size: 10px;
+	}
+	.top_nav_holder ul{
+		margin: 0 -5px;
+	}
+	.top_nav_holder li{
+		margin: 0 5px;
+	}
+	.visible_advantages_text{
+		width: 65%;
+	}
+	.visible_advantages_visual{
+		width: 35%;
+	}
+	.char_comp_section{
+		margin: 0 -15px;
+	}
+	.full_free_section{
+		padding: 40px 0 205px; 
+	}
+	.free_list_holder{
+		width: 100%;
+		max-width: 300px;
+		margin: 0 0 20px;
+	}
+	.full_free_section .visual{
+		width: 100%;
+	}
+	.light_list li{
+		width: 50%;
+		margin: 0 0 14px;
+	}
+	.mini_fixed_pop{
+		display: none;
+	}
+    .flash_text{
+	padding: 0 20px;
+	margin: 20px 0 0;
+	width: 80%;
+	text-align: left;
+	}
+}
+@media screen and (max-width: 600px) {
+	h1{
+		font-size: 46px;
+		line-height: 50px;
+	}
+	br{
+		display: none;
+	}
+	.main_price{
+		text-align: center;
+	}
+	.text_block>ul{
+		max-width: 400px;
+		margin: 0 auto 20px;
+	}
+	.text_block>ul li{
+		width: 50%;
+	}
+	.tel_holder{
+		margin: 0 5px;
+	}
+	.tel_holder a{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	a.top_order{
+		padding: 10px 15px;
+		margin: -5px 0;
+		font-size: 12px;
+	}
+	.top_nav_holder ul{
+		display: block;
+		text-align: center;
+		margin: 0 0 5px;
+	}
+	.top_nav_holder .attention{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	.main_carousel{
+		padding: 0;
+	}
+	.specialoffer_form_holder form{
+		padding: 30px 20px 20px;
+	}
+	.specialoffer_form_holder strong{
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.visible_advantages_list li{
+		width: 50%;
+	}
+	.visible_advantages_text{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.visible_advantages_text h2{
+		font-size: 40px;
+		line-height: 46px;
+	}
+	.visible_advantages_text span{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.ultra_section h2{
+		font-size: 44px;
+		line-height: 52px;
+	}
+	.char_comp_block{
+		padding: 40px 10px 10px;
+	}
+	.char_comp_block li span{
+		padding: 0 2px 0 0;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.char_comp_block li span,
+	.char_comp_block li b{
+		font-size: 13px;
+	}
+	.reliable_section .characteristics_list .visual{
+		height: 160px;
+	}
+	.light_list li{
+		width: 100%;
+	}
+	.popup .close_popup,
+	.fancybox-close{
+		right: 10px;
+		top: 10px;
+	}
+}
+@media screen and (max-width: 530px) {
+	h1{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	h2{
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.tel_holder{
+		display: none;
+	}
+	a.top_order{
+		font-size: 10px;
+	}
+	.logo{
+		margin: 0 0 0 50px;
+	}
+	.text_block>ul{
+		max-width: 200px;
+	}
+	.text_block>ul li{
+		width: 100%;
+	}
+	.mini_characteristics{
+		text-align: center;
+		font-size: 0;
+		line-height: 0;
+	}
+	.mini_characteristics li{
+		width: 25%;
+		display: inline-block;
+		vertical-align: middle;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0 5px;
+	}
+	.main_carousel_holder .slick-next{
+		margin-right: 20px;
+	}
+	.main_carousel_holder .slick-prev{
+		margin-left: 20px;
+	}
+	.specialoffer_form_holder form{
+		padding: 30px 5px 20px;
+	}
+	.specialoffer_section h2{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.specialoffer_price_block .big_sale{
+		font-size: 80px;
+	}
+	.visible_advantages_text{
+		width: 100%;
+	}
+	.visible_advantages_visual{
+		width: 100%;
+		margin: 0;
+	}
+	.visible_advantages_visual img{
+		max-width: 100%;
+	}
+	.dualcam_section .visual{
+		margin: 0 0 5px;
+	}
+	.characteristics_list .visual{
+		height: 140px;
+		margin: 0 0 5px;
+	}
+	.free_list_holder{
+		text-align: center;
+	}
+	.free_list_holder ul{
+		text-align: left;
+	}
+	.full_free_section h2{
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.full_free_section p{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.men_form_section form{
+		padding: 50px 15px 20px;
+	}
+	.men_form_section{
+		padding: 50px 0;
+	}
+	.rewiews_section{
+		padding: 40px 0 20px;
+	}
+	.rewiews_section h2{
+		font-size: 48px;
+		line-height: 56px;
+	}
+	.reliable_section .characteristics_list .visual{
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.visible_advantages_list li{
+		width: 100%;
+	}
+	.popup_content,
+	.popup_title{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
